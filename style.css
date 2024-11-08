@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
 body {
     margin: 20px;
     font-family: Arial, sans-serif;
@@ -106,9 +108,8 @@ button:hover {
     align-items: center;
 }
 #resume-preview .resume-header .resume-details p{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 #resume-preview .resume-header p{
@@ -118,9 +119,9 @@ button:hover {
 }
 
 #resume-preview .resume-header img {
-    width: 130px;
+    height: 170px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -132,4 +133,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+#resume-preview .resume-body div h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
