@@ -102,7 +102,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-#resume-preview img {
+#resume-preview .resume-header img {
     width: 130px;
     border-radius: 50%;
     margin-top: 10px;

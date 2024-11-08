@@ -1,3 +1,21 @@
+// download resume as pdf
+function downloadResume() {
+    const resume = document.getElementById('preview');
+    const download = document.getElementById('download');
+
+    download.addEventListener('click', () => {
+        const options = {
+            margin: 1,
+            filename: 'Resume.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        };
+        
+        html2pdf().set(options).from(resume).save();
+    });
+}
+
 function generateResume() {
     // Get input values
     document.getElementById("preview-name").textContent = document.getElementById("name").value;
@@ -27,12 +45,3 @@ function generateResume() {
     document.getElementById("form").style.display = "none";
 }
 
-// download resume as pdf
-function downloadResume() {
-    const resume = document.getElementById('preview');
-        const download = document.getElementById('download');
-        download.addEventListener('click', () => {
-            html2pdf(resume);
-        }
-    );
-}
