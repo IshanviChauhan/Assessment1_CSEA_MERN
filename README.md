@@ -1,6 +1,7 @@
 # Assessment1_CSEA_MERN : Resume Builder
 This project is a simple and interactive Resume Builder application developed using HTML, CSS, and JavaScript. It allows users to create a personalized resume by filling out a form with essential information and then previewing it in a structured format. The tool also provides an option to download the resume as a PDF.
 
+**GitHub Deployement Link :** https://ishanvichauhan.github.io/Assessment1_CSEA_MERN/
 **Netlify Deployment Link :** https://mern-assessment-resumebuilder.netlify.app/
 
 ## Features
