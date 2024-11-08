@@ -6,6 +6,7 @@ body {
     margin: 20px;
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f4f4f9;
@@ -85,7 +86,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 #resume-preview .resume-header #preview-name{
     font-size: 1.5em;

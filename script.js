@@ -41,7 +41,7 @@ function generateResume() {
     }
 
     // Show the resume output
-    document.getElementById("preview").style.display = "block";
     document.getElementById("form").style.display = "none";
+    document.getElementById("preview").style.display = "block";
 }
 
