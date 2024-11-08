@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bu ndle.min.js"></script>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <h1>Resume Builder</h1>
+        <form id="resume-form">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <br>
+            <input type="tel" name="phone" id="phone" placeholder="Phone">
+            <br>
+            <input type="text" name="linkedin" id="linkedin" placeholder="Linkedin">
+            <br>
+            <input type="text" name="github" id="github" placeholder="Github">
+            <br>
+            <input type="text" name="work-experience" id="experience" placeholder="Experience">
+            <br>
+            <input type="text" name="education" id="education" placeholder="Education">
+            <br>
+            <input type="file" name="photo" id="photo" accept="image/*">
+            <br>
+            <button type="submit" onclick="generateResume()">Generate Resume</button>
+
+        </form>
+    </div>
+
+    <div id="preview">
+        <h1>Resume Preview</h1>
+        <div id="resume-preview">
+            <div class="resume-header">
+                <h2 id="preview-name">Name</h2>
+                <div class="resume-photo" id="resume-photo">
+                    <img src="cat.jpeg" class="resume-photo" alt="Photo">
+                </div>
+                <div class="resume-details">
+                    <p id="preview-email">Email : <span id="preview-spanEmail"></span></p>
+                    <p id="preview-phone">Phone : <span id="preview-spanPhone"></span></p>
+                    <p id="preview-linkedin">Linkedin : <span id="preview-spanLinkedin"></span></p></p>
+                    <p id="preview-github">Github : <span id="preview-spanGithub"></span></p></p>
+                </div>
+            </div>
+            <div class="resume-body">
+                <div class="preview-experience">
+                    <h3>Experience</h3><br>
+                    <span id="preview-spanExperience"></span>
+                </div>
+                <div class="preview-education">
+                    <h3>Education</h3><br>
+                    <span id="preview-spanEducation"></span>
+                </div>
+            </div>
+        </div>
+        <button id="download" onclick="downloadResume()">Download Resume</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
