@@ -17,7 +17,8 @@ This project is a simple and interactive Resume Builder application developed us
      - Profile photo
 
 2. **Resume Preview**:
-   ![image](https://github.com/user-attachments/assets/7d34a645-d94e-4a65-b68d-8a76ec4fb1ec)
+
+    ![image](https://github.com/user-attachments/assets/7d34a645-d94e-4a65-b68d-8a76ec4fb1ec)
    ![image](https://github.com/user-attachments/assets/53f5d97f-9c2a-404f-888f-3b0669845ee3)
    ![image](https://github.com/user-attachments/assets/e1ecd4ef-a292-4df5-888f-0ceab4e147a6)
    - Displays a live preview of the resume based on the user's input.
