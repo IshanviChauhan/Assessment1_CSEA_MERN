@@ -27,31 +27,30 @@
             <br>
             <input type="file" name="photo" id="photo" accept="image/*">
             <br>
-            <button type="submit" onclick="generateResume()">Generate Resume</button>
-
+            <button type="button" onclick="generateResume()">Generate Resume</button>
         </form>
     </div>
 
-    <div id="preview">
+    <div id="preview" style="display: none;">
         <h1>Resume Preview</h1>
         <div id="resume-preview">
             <div class="resume-header">
                 <h2 id="preview-name">Name</h2>
-                <p><img src="Ishanvi - Photo.jpg" class="resume-photo" id="resume-photo" alt="Photo" style="max-width: 130px;"></p>
+                <p><img src="Cat.jpeg" class="resume-photo" id="resume-photo" alt="Photo" style="max-width: 130px;"></p>
                 <div class="resume-details">
                     <p id="preview-email">Email : <span id="preview-spanEmail"></span></p>
                     <p id="preview-phone">Phone : <span id="preview-spanPhone"></span></p>
-                    <p id="preview-linkedin">Linkedin : <span id="preview-spanLinkedin"></span></p></p>
-                    <p id="preview-github">Github : <span id="preview-spanGithub"></span></p></p>
+                    <p id="preview-linkedin">Linkedin : <span id="preview-spanLinkedin"></span></p>
+                    <p id="preview-github">Github : <span id="preview-spanGithub"></span></p>
                 </div>
             </div>
             <div class="resume-body">
                 <div class="preview-experience">
-                    <h3>Experience</h3><br>
+                    <h3>Experience</h3>
                     <span id="preview-spanExperience"></span>
                 </div>
                 <div class="preview-education">
-                    <h3>Education</h3><br>
+                    <h3>Education</h3>
                     <span id="preview-spanEducation"></span>
                 </div>
             </div>
